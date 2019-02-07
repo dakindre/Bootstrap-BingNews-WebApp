@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <br />
+    <form method="post">
+        <button class="btn btn-dark">Click to Refresh Results</button>
+    </form>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6">
+            <h2>20 Most Recent Bing Articles</h2>
+            @foreach (var news in (IEnumerable<Object>)ViewData["News"])
+            {
+                <h4>@news</h4>
+            }
+        </div>
+        <div class="col-xs-6">
+            <h2>Providers</h2>
+            @foreach (var publisher in (IEnumerable<Object>)ViewData["Publishers"])
+            {
+                <h4>@publisher</h4>
+            }
+        </div>
+
+    </div>
+</div>
