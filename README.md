@@ -1,7 +1,10 @@
 # Fluent Web App Using Bing News Search API
 
 ## Objective
-Create a web application that shows the 20 most recent Bing news articles and a tally of their providers
+Create a web application that shows the 20 most recent Bing news articles and a tally of their providers. 
+
+## Deliverable
+The application can be found at [DrewDakinsFluentWebApp](https://fluentwebapp.azurewebsites.net/) 
 
 ## Technologies Used
 ```
