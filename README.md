@@ -1,8 +1,7 @@
 # Fluent Web App Using Bing News Search API
 
 ## Objective
-Create a web application that shows the 20 most recent Bing news articles and a tally of those selected articles 
-Web Application to show 20 most recent Bing searches and a tally of the their providers
+Create a web application that shows the 20 most recent Bing news articles and a tally of their providers
 
 ## Technologies Used
 ```
@@ -12,12 +11,11 @@ Bing Search API
 ```
 
 ## Approach and Details
-The project is an ASP.NET Core Web App written in C#. Stylistic elements based off of Bootstrap.
-The Page Model holds two objects list which represent both the News Titles and the News Providers. This could be expanded to include others but 
-I left it as just that detail.
+The project is an ASP.NET Core Web App written in C#. Stylistic elements based off of Bootstrap. It's hosted on Azure under free tier. A load balancer, auto scaling group, or route procedure could be applied if necessary, but in order to stay in free tier it is not.
 
-Basically the API is called within the Page Model and using Get() and Post() functions displays the result of the API call. You can refresh the
-list by selecting the "Click to Refresh Results" button at the top.
+The Page Model holds two objects list which represent both the News Titles and the News Providers. This could be expanded to include others but I left it as just that detail.
+
+Basically the API is called within the Page Model and using Get() and Post() functions displays the result of the API call. You can refresh the list by selecting the "Click to Refresh Results" button at the top.
 
 ## Screenshots
 
