@@ -1,4 +1,4 @@
-# Fluent Web App Using Bing News Search API
+# C# Bootstrap BingNewsAPI WebApp
 
 ## Objective
 Create a web application that shows the 20 most recent Bing news articles and a tally of their providers. 
